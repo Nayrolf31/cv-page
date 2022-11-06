@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './component/Navbar/Navbar'
 import Header from './component/Header/Header'
 import Competences from './component/Competences/Competences'
 import Skills from './component/Skills/Skills'
@@ -17,6 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    <Navbar />
     <Header />
     <div className='Card_container'>
       <Competences />

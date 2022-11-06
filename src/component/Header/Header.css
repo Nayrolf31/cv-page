@@ -6,6 +6,7 @@
     color: white;
     height: 150px;
     padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 .header_name {
@@ -70,6 +71,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-top: 20px;
     }
     .header_infos{
         text-align: center;

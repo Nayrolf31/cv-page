@@ -6,7 +6,7 @@ import { FaStar, FaRegStar } from 'react-icons/fa';
 const Skills = () => {
     return (
         <div className='Card'>
-            <h1 className='Card_title' id='skills'>Skills</h1>
+            <h1 className='Card_title' id='Skills'>Skills</h1>
             <p className='Card_Description'>
                 <ul>
                     <li>HTML

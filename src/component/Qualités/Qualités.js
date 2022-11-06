@@ -4,7 +4,7 @@ import '../Card.css';
 const Qualités = () => {
     return (
         <div className='Card'>
-            <h1 className='Card_title'>Qualités</h1>
+            <h1 className='Card_title' id='Qualités'>Qualités</h1>
             <p className='Card_Description'>
                 <lu>
                     <li>Sens de l'initiative</li>

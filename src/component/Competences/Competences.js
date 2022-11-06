@@ -5,7 +5,7 @@ import '../Card.css'
 const Competences = () => {
         return (
             <div className='Card'>
-            <h1 className='Card_title'>Compétences</h1>
+            <h1 className='Card_title' id='Compétences'>Compétences</h1>
             <p className='Card_Description'>
                 <ul>
                     <li>Utilisation de logiciels de traitement de texte</li>

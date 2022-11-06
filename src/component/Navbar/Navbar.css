@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background: rgb(54, 87, 100);
+    border: solid black 1px;
+}
+
+.navbar a:hover {
+    background: rgb(91, 120, 131);
+}
+
+@media screen and (max-width:415px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+}
+
+/* Sidenav menu */
+/* .sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  /*.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }*/
+  
+  /* Active class */
+  /* .sidenav.active {
+    left: 0;
+  } */
+  
+  /* Close btn */
+  /* .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  } */
+  
+  /* Icône burger */
+  /* .burger-icon{
+    display: block;
+  }
+
+  .burger-icon span {
+    display: flex;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  } */
+   
