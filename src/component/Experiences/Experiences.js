@@ -3,8 +3,8 @@ import './Experiences.css';
 
 const Experiences = () => {
     return (
-        <div className='Card'>
-            <h1 className='Card_title'id='Expériences professionnelles'>Expériences professionnelles</h1>
+        <div className='Card'id='Expériences professionnelles'>
+            <h1 className='Card_title'>Expériences professionnelles</h1>
             <p className='Card_Description'>
                 <ul>
                     <li>2020 - Vendeur conseil</li>

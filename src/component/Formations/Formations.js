@@ -3,8 +3,8 @@ import './Formations.css';
 
 const Formations = () => {
     return (
-        <div className='Card'>
-            <h1 className='Card_title' id='Formations'>Formations</h1>
+        <div className='Card' id='Formations'>
+            <h1 className='Card_title'>Formations</h1>
             <p className='Card_Description'>
                 <lu>
                     <li>2022 – Formation Développeur Web chez OpenClassrooms</li>

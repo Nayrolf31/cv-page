@@ -17,6 +17,7 @@ box-shadow: -20px -17px 32px -15.5px rgba(0, 0, 0, 0.45);
 
 .Card_title {
     font-family: 'Lobster', cursive;
+    /* margin-top: -4px; */
 }
 
 .Card_Description {
